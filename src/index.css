@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+}
+.app {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-column-gap: 14px;
+	height: 910px;
+	.wrap {
+		background-color: #c4c4c4;
+		padding: 13px 8px 13px 17px;
+	}
+}

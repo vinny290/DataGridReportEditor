@@ -1,0 +1,6 @@
+.text-truncate {
+	max-width: 200px; /* Задайте необходимую ширину */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
